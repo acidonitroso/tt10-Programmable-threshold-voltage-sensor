@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750429872
+timestamp 1750694093
 << metal1 >>
 rect 4427 5263 4502 5269
 rect 4427 4946 4502 5188
@@ -374,13 +374,13 @@ rect 7532 -9378 7826 -7970
 rect 10330 -9378 10676 -8988
 rect -3790 -9902 13766 -9378
 use carico  carico_0
-timestamp 1750428065
+timestamp 1750693988
 transform 1 0 3528 0 1 5012
-box 564 -3648 3080 272
+box 890 -3500 2755 17
 use ingresso_ota  ingresso_ota_0
-timestamp 1750416320
+timestamp 1750693945
 transform 1 0 -289 0 1 4906
-box 496 -4682 4034 1564
+box 501 -4682 3830 1564
 use inverter_fine  inverter_fine_0
 timestamp 1750413137
 transform 1 0 8016 0 1 3076
@@ -394,28 +394,23 @@ timestamp 1750416658
 transform 1 0 6690 0 1 1784
 box 138 698 1016 2318
 use vb1_part  vb1_part_0
-timestamp 1750072275
+timestamp 1750694058
 transform 1 0 4684 0 1 -9367
-box -1104 -600 1406 8016
+box -1104 -600 502 7902
 use vb2_part  vb2_part_0
-timestamp 1750070741
+timestamp 1750694076
 transform 1 0 7184 0 1 -7427
-box -1366 -597 1266 5992
+box -997 -597 698 5718
 use vb3_part  vb3_part_0
-timestamp 1750070993
+timestamp 1750694093
 transform 1 0 9920 0 1 -8432
-box -1024 -601 1410 6974
+box -806 -601 780 6700
 use vmirnmos  vmirnmos_0
-timestamp 1750071139
+timestamp 1750694016
 transform 1 0 -1324 0 1 -9446
-box -572 530 1592 7956
+box -458 530 1154 7731
 use vmirpmos  vmirpmos_0
-timestamp 1750071538
+timestamp 1750694029
 transform 1 0 1312 0 1 -8481
-box -918 499 1614 7220
-<< labels >>
-flabel space 11674 -1240 13294 -712 0 FreeSans 1600 0 0 0 Vdd
-flabel metal4 10638 -9868 12068 -9528 0 FreeSans 1600 0 0 0 Vss
-flabel space 8112 248 9564 814 0 FreeSans 1600 0 0 0 Vss
-flabel space 10864 3452 11270 3662 0 FreeSans 1600 0 0 0 OUT
+box -400 499 1218 6751
 << end >>

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750071139
+timestamp 1750694016
 << viali >>
 rect 252 4498 340 4692
 rect 764 4502 852 4696
@@ -63,7 +63,7 @@ rect -448 2385 -224 2386
 rect -448 2163 -447 2385
 rect -225 2163 -224 2385
 rect -448 2162 -224 2163
-use sky130_fd_pr__res_high_po_0p35_M898NC  XR9 ~/tt10-analog-template-psei-def/mag
+use sky130_fd_pr__res_high_po_0p35_M898NC  XR9
 timestamp 1749663830
 transform 1 0 148 0 1 4139
 box -201 -3592 201 3592
@@ -71,8 +71,4 @@ use sky130_fd_pr__res_high_po_0p35_J32JWA  XR10
 timestamp 1749663830
 transform 1 0 953 0 1 5678
 box -201 -2052 201 2052
-<< labels >>
-flabel space 1196 3298 1576 3498 0 FreeSans 1600 0 0 0 Vss
-flabel space 1206 7106 1592 7532 0 FreeSans 1600 0 0 0 Vmirnmos
-flabel space -572 7698 -148 7956 0 FreeSans 1600 0 0 0 Vdd
 << end >>

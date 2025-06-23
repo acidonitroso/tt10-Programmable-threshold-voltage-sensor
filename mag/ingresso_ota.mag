@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750416320
+timestamp 1750693945
 << viali >>
 rect 2270 94 2366 128
 rect 1340 -694 1458 -658
@@ -458,7 +458,7 @@ rect 506 -3965 507 -3751
 rect 721 -3965 722 -3751
 rect 506 -3966 722 -3965
 rect 1128 -4682 1337 313
-use sky130_fd_pr__nfet_01v8_lvt_648S5X  sky130_fd_pr__nfet_01v8_lvt_648S5X_0 ~/tt10-analog-template-psei-def/mag
+use sky130_fd_pr__nfet_01v8_lvt_648S5X  sky130_fd_pr__nfet_01v8_lvt_648S5X_0
 timestamp 1749574077
 transform 1 0 2321 0 1 -146
 box -211 -310 211 310
@@ -482,17 +482,4 @@ use sky130_fd_pr__pfet_01v8_lvt_4QBKD3  XM12
 timestamp 1749574077
 transform 1 0 3169 0 1 -1927
 box -423 -319 423 319
-<< labels >>
-flabel space 2222 356 2490 456 0 FreeSans 480 0 0 0 Vss
-flabel space 694 -3182 870 -3098 0 FreeSans 480 0 0 0 Vmirpmos
-flabel space 496 -1262 692 -1180 0 FreeSans 480 0 0 0 Vinp
-flabel metal4 590 -1748 710 -1640 0 FreeSans 480 0 0 0 Vinn
-flabel space 534 -164 1172 130 0 FreeSans 480 0 0 0 Vmirnmos
-flabel space 3746 -1736 3916 -1672 0 FreeSans 480 0 0 0 Ipp
-flabel space 3558 -344 3764 -288 0 FreeSans 480 0 0 0 Inn
-flabel space 2624 -4660 3174 -4386 0 FreeSans 1600 0 0 0 Vss
-flabel space 2016 1018 3012 1414 0 FreeSans 1600 0 0 0 Vdd
-flabel space 3608 -1260 4034 -1084 0 FreeSans 480 0 0 0 Inp
-flabel space 3668 -2578 3978 -2456 0 FreeSans 480 0 0 0 Ipn
-flabel space 2140 -3458 2382 -3386 0 FreeSans 480 0 0 0 Vdd
 << end >>

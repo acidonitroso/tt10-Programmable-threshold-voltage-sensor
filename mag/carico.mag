@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750428065
+timestamp 1750693988
 << viali >>
 rect 1226 -156 1372 -122
 rect 2244 -164 2390 -128
@@ -433,15 +433,4 @@ use sky130_fd_pr__nfet_01v8_lvt_648S5X  XM9
 timestamp 1749574077
 transform 1 0 2359 0 1 -2966
 box -211 -310 211 310
-<< labels >>
-flabel space 1558 68 1962 272 0 FreeSans 1600 0 0 0 Vdd
-flabel space 564 -886 840 -746 0 FreeSans 480 0 0 0 Inn
-flabel space 2798 -918 2932 -818 0 FreeSans 480 0 0 0 Inp
-flabel space 2832 -3336 3080 -3236 0 FreeSans 480 0 0 0 Vss
-flabel space 1014 -2620 1156 -2536 0 FreeSans 480 0 0 0 Ipn
-flabel space 2490 -2594 2662 -2512 0 FreeSans 480 0 0 0 Ipp
-flabel space 1634 -3630 1788 -3552 0 FreeSans 480 0 0 0 Vb2
-flabel space 1998 -3628 2150 -3526 0 FreeSans 480 0 0 0 Vb3
-flabel space 1342 -3648 1564 -3546 0 FreeSans 480 0 0 0 Vb1
-flabel space 2780 -1862 3012 -1694 0 FreeSans 480 0 0 0 out
 << end >>

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750072275
+timestamp 1750694058
 << viali >>
 rect -454 4798 -406 5002
 rect 128 4800 180 5000
@@ -75,8 +75,4 @@ use sky130_fd_pr__res_high_po_0p35_M898NC  XR4
 timestamp 1749663830
 transform 1 0 301 0 1 4098
 box -201 -3592 201 3592
-<< labels >>
-flabel space 854 7076 1406 7488 0 FreeSans 1600 0 0 0 Vb1
-flabel space -750 7662 -132 8016 0 FreeSans 1600 0 0 0 Vdd
-flabel space 116 308 316 414 0 FreeSans 1600 0 0 0 Vss
 << end >>
