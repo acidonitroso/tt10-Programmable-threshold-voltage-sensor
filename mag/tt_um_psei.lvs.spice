@@ -247,111 +247,112 @@ X5 VGND a_27_47# X VNB sky130_fd_pr__nfet_01v8 ad=0.0819 pd=0.95 as=0.0567 ps=0.
 **devattr s=2268,138 d=4368,272
 .ends
 
-.subckt decoder_p in[0] in[1] in[2] n_d[0] n_d[1] n_d[2] n_d[3] n_d[4] n_d[5] n_d[6]
-+ n_d[7] y_d[0] y_d[1] y_d[2] y_d[3] y_d[4] y_d[5] y_d[6] y_d[7] VPWR VGND
-XFILLER_0_0_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
-XFILLER_0_0_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-Xoutput7 net7 VGND VGND VPWR VPWR n_d[3] sky130_fd_sc_hd__clkbuf_4
-XPHY_EDGE_ROW_4_Left_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_6_Right_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xoutput10 net10 VGND VGND VPWR VPWR n_d[6] sky130_fd_sc_hd__clkbuf_4
-Xoutput8 net8 VGND VGND VPWR VPWR n_d[4] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_3_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
-Xoutput11 net11 VGND VGND VPWR VPWR n_d[7] sky130_fd_sc_hd__clkbuf_4
-Xoutput9 net9 VGND VGND VPWR VPWR n_d[5] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_4_41 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-X_29_ _02_ net1 net3 VGND VGND VPWR VPWR _08_ sky130_fd_sc_hd__and3b_1
-Xoutput12 net12 VGND VGND VPWR VPWR y_d[0] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_7_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-XFILLER_0_4_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
-X_28_ _07_ VGND VGND VPWR VPWR net8 sky130_fd_sc_hd__clkbuf_1
-XPHY_EDGE_ROW_8_Left_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xoutput13 net13 VGND VGND VPWR VPWR y_d[1] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_4_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
-X_27_ net1 net2 net3 VGND VGND VPWR VPWR _07_ sky130_fd_sc_hd__or3b_1
-Xoutput14 net14 VGND VGND VPWR VPWR y_d[2] sky130_fd_sc_hd__clkbuf_4
-X_26_ _01_ _02_ _00_ VGND VGND VPWR VPWR net16 sky130_fd_sc_hd__nor3b_1
-XPHY_EDGE_ROW_1_Right_1 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xoutput15 net15 VGND VGND VPWR VPWR y_d[3] sky130_fd_sc_hd__clkbuf_4
-X_25_ _00_ _01_ _02_ VGND VGND VPWR VPWR net7 sky130_fd_sc_hd__nand3b_1
-XFILLER_0_1_13 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_1_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-Xoutput16 net16 VGND VGND VPWR VPWR y_d[4] sky130_fd_sc_hd__clkbuf_4
-X_24_ _06_ VGND VGND VPWR VPWR net15 sky130_fd_sc_hd__clkbuf_1
-XFILLER_0_1_25 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-Xoutput17 net17 VGND VGND VPWR VPWR y_d[5] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_7_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-XFILLER_0_5_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_23_ _00_ net1 net2 VGND VGND VPWR VPWR _06_ sky130_fd_sc_hd__and3b_1
-XFILLER_0_1_37 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XPHY_EDGE_ROW_3_Left_13 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_5_Right_5 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xoutput18 net18 VGND VGND VPWR VPWR y_d[6] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_7_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
-X_22_ _05_ VGND VGND VPWR VPWR net6 sky130_fd_sc_hd__clkbuf_1
-XFILLER_0_1_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
-Xoutput19 net19 VGND VGND VPWR VPWR y_d[7] sky130_fd_sc_hd__clkbuf_4
-X_21_ net3 net1 net2 VGND VGND VPWR VPWR _05_ sky130_fd_sc_hd__or3b_1
-XFILLER_0_3_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
-X_20_ _00_ _01_ _02_ VGND VGND VPWR VPWR net14 sky130_fd_sc_hd__nor3b_1
-XPHY_EDGE_ROW_7_Left_17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xinput1 in[0] VGND VGND VPWR VPWR net1 sky130_fd_sc_hd__buf_1
-XPHY_EDGE_ROW_9_Right_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XFILLER_0_4_29 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-Xinput2 in[1] VGND VGND VPWR VPWR net2 sky130_fd_sc_hd__buf_1
-Xinput3 in[2] VGND VGND VPWR VPWR net3 sky130_fd_sc_hd__buf_1
-XPHY_EDGE_ROW_0_Right_0 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XFILLER_0_2_41 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_2_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
-XFILLER_0_5_20 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_8_42 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_5_32 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XPHY_EDGE_ROW_2_Left_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_4_Right_4 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XFILLER_0_5_44 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_5_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-XPHY_EDGE_ROW_6_Left_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_8_Right_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_37_ _00_ _01_ _02_ VGND VGND VPWR VPWR net11 sky130_fd_sc_hd__nand3_1
-X_19_ _04_ VGND VGND VPWR VPWR net5 sky130_fd_sc_hd__clkbuf_1
-X_36_ _10_ VGND VGND VPWR VPWR net19 sky130_fd_sc_hd__clkbuf_1
-X_35_ _00_ _01_ _02_ VGND VGND VPWR VPWR _10_ sky130_fd_sc_hd__and3_1
-X_18_ net3 net2 net1 VGND VGND VPWR VPWR _04_ sky130_fd_sc_hd__or3b_1
-XFILLER_0_2_29 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-X_17_ _00_ _02_ _01_ VGND VGND VPWR VPWR net13 sky130_fd_sc_hd__nor3b_1
-X_34_ _01_ _02_ _00_ VGND VGND VPWR VPWR net10 sky130_fd_sc_hd__nand3b_1
-X_33_ _09_ VGND VGND VPWR VPWR net18 sky130_fd_sc_hd__clkbuf_1
-XPHY_EDGE_ROW_1_Left_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_16_ _03_ VGND VGND VPWR VPWR net4 sky130_fd_sc_hd__clkbuf_1
-XPHY_EDGE_ROW_3_Right_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_15_ net3 net1 net2 VGND VGND VPWR VPWR _03_ sky130_fd_sc_hd__or3_1
-X_32_ _01_ net2 net3 VGND VGND VPWR VPWR _09_ sky130_fd_sc_hd__and3b_1
-XFILLER_0_3_30 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-X_31_ _02_ _01_ _00_ VGND VGND VPWR VPWR net9 sky130_fd_sc_hd__nand3b_1
-X_14_ _00_ _01_ _02_ VGND VGND VPWR VPWR net12 sky130_fd_sc_hd__nor3_1
-XFILLER_0_3_42 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-X_30_ _08_ VGND VGND VPWR VPWR net17 sky130_fd_sc_hd__clkbuf_1
-XPHY_EDGE_ROW_5_Left_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_13_ net2 VGND VGND VPWR VPWR _02_ sky130_fd_sc_hd__clkbuf_2
-XPHY_EDGE_ROW_7_Right_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-X_12_ net1 VGND VGND VPWR VPWR _01_ sky130_fd_sc_hd__clkbuf_2
-X_11_ net3 VGND VGND VPWR VPWR _00_ sky130_fd_sc_hd__clkbuf_2
-XFILLER_0_2_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_9_Left_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XFILLER_0_3_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-XFILLER_0_0_36 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_6_35 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_0_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
-XFILLER_0_9_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
-XFILLER_0_9_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-Xoutput4 net4 VGND VGND VPWR VPWR n_d[0] sky130_fd_sc_hd__clkbuf_4
-XFILLER_0_6_47 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-XFILLER_0_6_25 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_0_Left_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XPHY_EDGE_ROW_2_Right_2 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
-XFILLER_0_4_9 VGND VPWR VPWR VGND sky130_ef_sc_hd__decap_12
-Xoutput5 net5 VGND VGND VPWR VPWR n_d[1] sky130_fd_sc_hd__clkbuf_4
-Xoutput6 net6 VGND VGND VPWR VPWR n_d[2] sky130_fd_sc_hd__clkbuf_4
+.subckt decoder_p output15/X output11/X output13/X output19/X input1/A output17/X
++ output10/X output12/X output9/X output14/X output16/X output8/X output18/X output7/X
++ _37_/VPB output4/X output5/X input2/A input3/A VSUBS output6/X
+XFILLER_0_0_18 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_8
+XFILLER_0_0_29 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+Xoutput7 _25_/Y VSUBS VSUBS _37_/VPB _37_/VPB output7/X sky130_fd_sc_hd__clkbuf_4
+XPHY_EDGE_ROW_4_Left_14 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_6_Right_6 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xoutput10 _34_/Y VSUBS VSUBS _37_/VPB _37_/VPB output10/X sky130_fd_sc_hd__clkbuf_4
+Xoutput8 _28_/X VSUBS VSUBS _37_/VPB _37_/VPB output8/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_3_19 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_6
+Xoutput11 _37_/Y VSUBS VSUBS _37_/VPB _37_/VPB output11/X sky130_fd_sc_hd__clkbuf_4
+Xoutput9 _31_/Y VSUBS VSUBS _37_/VPB _37_/VPB output9/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_4_41 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+X_29_ _37_/C _29_/B _32_/C VSUBS VSUBS _37_/VPB _37_/VPB _30_/A sky130_fd_sc_hd__and3b_1
+Xoutput12 _14_/Y VSUBS VSUBS _37_/VPB _37_/VPB output12/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_7_30 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+XFILLER_0_4_53 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_8
+X_28_ _28_/A VSUBS VSUBS _37_/VPB _37_/VPB _28_/X sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_8_Left_18 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xoutput13 _17_/Y VSUBS VSUBS _37_/VPB _37_/VPB output13/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_4_21 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_6
+X_27_ _29_/B _32_/B _32_/C VSUBS VSUBS _37_/VPB _37_/VPB _28_/A sky130_fd_sc_hd__or3b_1
+Xoutput14 _20_/Y VSUBS VSUBS _37_/VPB _37_/VPB output14/X sky130_fd_sc_hd__clkbuf_4
+X_26_ _37_/B _37_/C _37_/A VSUBS VSUBS _37_/VPB _37_/VPB _26_/Y sky130_fd_sc_hd__nor3b_1
+XPHY_EDGE_ROW_1_Right_1 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xoutput15 _24_/X VSUBS VSUBS _37_/VPB _37_/VPB output15/X sky130_fd_sc_hd__clkbuf_4
+X_25_ _37_/A _37_/B _37_/C VSUBS VSUBS _37_/VPB _37_/VPB _25_/Y sky130_fd_sc_hd__nand3b_1
+XFILLER_0_1_13 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_1_57 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+Xoutput16 _26_/Y VSUBS VSUBS _37_/VPB _37_/VPB output16/X sky130_fd_sc_hd__clkbuf_4
+X_24_ _24_/A VSUBS VSUBS _37_/VPB _37_/VPB _24_/X sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_1_25 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+Xoutput17 _30_/X VSUBS VSUBS _37_/VPB _37_/VPB output17/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_7_57 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+XFILLER_0_5_3 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_23_ _37_/A _29_/B _32_/B VSUBS VSUBS _37_/VPB _37_/VPB _24_/A sky130_fd_sc_hd__and3b_1
+XFILLER_0_1_37 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_3_Left_13 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_5_Right_5 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xoutput18 _33_/X VSUBS VSUBS _37_/VPB _37_/VPB output18/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_7_47 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_8
+X_22_ _22_/A VSUBS VSUBS _37_/VPB _37_/VPB _22_/X sky130_fd_sc_hd__clkbuf_1
+XFILLER_0_1_49 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_6
+Xoutput19 _36_/X VSUBS VSUBS _37_/VPB _37_/VPB output19/X sky130_fd_sc_hd__clkbuf_4
+X_21_ _32_/C _29_/B _32_/B VSUBS VSUBS _37_/VPB _37_/VPB _22_/A sky130_fd_sc_hd__or3b_1
+XFILLER_0_3_3 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_6
+X_20_ _37_/A _37_/B _37_/C VSUBS VSUBS _37_/VPB _37_/VPB _20_/Y sky130_fd_sc_hd__nor3b_1
+XPHY_EDGE_ROW_7_Left_17 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xinput1 input1/A VSUBS VSUBS _37_/VPB _37_/VPB _29_/B sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_9_Right_9 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XFILLER_0_4_29 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+Xinput2 input2/A VSUBS VSUBS _37_/VPB _37_/VPB _32_/B sky130_fd_sc_hd__buf_1
+Xinput3 input3/A VSUBS VSUBS _37_/VPB _37_/VPB _32_/C sky130_fd_sc_hd__buf_1
+XPHY_EDGE_ROW_0_Right_0 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XFILLER_0_2_41 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_2_53 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_8
+XFILLER_0_5_20 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_8_42 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_5_32 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XPHY_EDGE_ROW_2_Left_12 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_4_Right_4 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XFILLER_0_5_44 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_5_57 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+XPHY_EDGE_ROW_6_Left_16 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_8_Right_8 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_37_ _37_/A _37_/B _37_/C VSUBS VSUBS _37_/VPB _37_/VPB _37_/Y sky130_fd_sc_hd__nand3_1
+X_19_ _19_/A VSUBS VSUBS _37_/VPB _37_/VPB _19_/X sky130_fd_sc_hd__clkbuf_1
+X_36_ _36_/A VSUBS VSUBS _37_/VPB _37_/VPB _36_/X sky130_fd_sc_hd__clkbuf_1
+X_35_ _37_/A _37_/B _37_/C VSUBS VSUBS _37_/VPB _37_/VPB _36_/A sky130_fd_sc_hd__and3_1
+X_18_ _32_/C _32_/B _29_/B VSUBS VSUBS _37_/VPB _37_/VPB _19_/A sky130_fd_sc_hd__or3b_1
+XFILLER_0_2_29 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+X_17_ _37_/A _37_/C _37_/B VSUBS VSUBS _37_/VPB _37_/VPB _17_/Y sky130_fd_sc_hd__nor3b_1
+X_34_ _37_/B _37_/C _37_/A VSUBS VSUBS _37_/VPB _37_/VPB _34_/Y sky130_fd_sc_hd__nand3b_1
+X_33_ _33_/A VSUBS VSUBS _37_/VPB _37_/VPB _33_/X sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_1_Left_11 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_16_ _16_/A VSUBS VSUBS _37_/VPB _37_/VPB _16_/X sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_3_Right_3 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_15_ _32_/C _29_/B _32_/B VSUBS VSUBS _37_/VPB _37_/VPB _16_/A sky130_fd_sc_hd__or3_1
+X_32_ _37_/B _32_/B _32_/C VSUBS VSUBS _37_/VPB _37_/VPB _33_/A sky130_fd_sc_hd__and3b_1
+XFILLER_0_3_30 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+X_31_ _37_/C _37_/B _37_/A VSUBS VSUBS _37_/VPB _37_/VPB _31_/Y sky130_fd_sc_hd__nand3b_1
+X_14_ _37_/A _37_/B _37_/C VSUBS VSUBS _37_/VPB _37_/VPB _14_/Y sky130_fd_sc_hd__nor3_1
+XFILLER_0_3_42 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+X_30_ _30_/A VSUBS VSUBS _37_/VPB _37_/VPB _30_/X sky130_fd_sc_hd__clkbuf_1
+XPHY_EDGE_ROW_5_Left_15 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_13_ _32_/B VSUBS VSUBS _37_/VPB _37_/VPB _37_/C sky130_fd_sc_hd__clkbuf_2
+XPHY_EDGE_ROW_7_Right_7 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+X_12_ _29_/B VSUBS VSUBS _37_/VPB _37_/VPB _37_/B sky130_fd_sc_hd__clkbuf_2
+X_11_ _32_/C VSUBS VSUBS _37_/VPB _37_/VPB _37_/A sky130_fd_sc_hd__clkbuf_2
+XFILLER_0_2_3 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_9_Left_19 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XFILLER_0_3_57 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+XFILLER_0_0_36 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_6_35 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_0_48 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_8
+XFILLER_0_9_57 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_4
+XFILLER_0_9_35 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+Xoutput4 _16_/X VSUBS VSUBS _37_/VPB _37_/VPB output4/X sky130_fd_sc_hd__clkbuf_4
+XFILLER_0_6_47 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+XFILLER_0_6_25 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_0_Left_10 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XPHY_EDGE_ROW_2_Right_2 VSUBS VSUBS _37_/VPB _37_/VPB sky130_fd_sc_hd__decap_3
+XFILLER_0_4_9 VSUBS _37_/VPB _37_/VPB VSUBS sky130_ef_sc_hd__decap_12
+Xoutput5 _19_/X VSUBS VSUBS _37_/VPB _37_/VPB output5/X sky130_fd_sc_hd__clkbuf_4
+Xoutput6 _22_/X VSUBS VSUBS _37_/VPB _37_/VPB output6/X sky130_fd_sc_hd__clkbuf_4
 .ends
 
 .subckt sky130_fd_pr__res_high_po_0p35_MGTKQ5 a_n35_n2936# a_n165_n3066# a_n35_2504#
@@ -416,16 +417,17 @@ X1 a_n33_n100# a_n81_n188# a_n125_n100# a_n227_n274# sky130_fd_pr__nfet_01v8_lvt
 **devattr s=12400,524 d=6600,266
 .ends
 
-.subckt ingresso_ota m1_2193_n1400# m1_1080_n1908# m1_576_n1912# m1_1750_n168# VSUBS
-+ m1_2870_n1902# m1_1358_n1034# m1_3140_n1036# m1_1557_n2993# Vinn
-XXM12 m1_2193_n1400# Vinn m1_1204_n2036# m1_2870_n1902# m1_2870_n1902# m1_2193_n1400#
+.subckt ingresso_ota m1_2193_n1400# li_1288_n2214# m1_1080_n1908# m1_576_n1912# m1_1750_n168#
++ VSUBS m1_2870_n1902# m1_1358_n1034# m1_3140_n1036# m1_1557_n2993#
+XXM12 m1_2193_n1400# li_1288_n2214# m1_1204_n2036# m1_2870_n1902# m1_2870_n1902# m1_2193_n1400#
 + m1_2193_n1400# m1_2870_n1902# m1_1204_n2036# m1_2193_n1400# sky130_fd_pr__pfet_01v8_lvt_4QBKD3
 Xsky130_fd_pr__nfet_01v8_lvt_648S5X_0 m1_1252_n916# m1_1750_n168# VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt_648S5X
 XXM1 m1_2193_n1400# VSUBS m1_1252_n916# m1_2193_n1400# m1_1252_n916# m1_3140_n1036#
 + sky130_fd_pr__nfet_01v8_lvt_DJ7QE5
-Xsky130_fd_pr__pfet_01v8_lvt_4QBKD3_1 m1_1557_n2993# Vinn Vinn m1_1204_n2036# m1_1204_n2036#
-+ m1_1557_n2993# m1_1557_n2993# m1_1204_n2036# Vinn m1_1557_n2993# sky130_fd_pr__pfet_01v8_lvt_4QBKD3
-XXM10 m1_576_n1912# Vinn m1_1204_n2036# m1_1080_n1908# m1_1080_n1908# m1_576_n1912#
+Xsky130_fd_pr__pfet_01v8_lvt_4QBKD3_1 m1_1557_n2993# li_1288_n2214# li_1288_n2214#
++ m1_1204_n2036# m1_1204_n2036# m1_1557_n2993# m1_1557_n2993# m1_1204_n2036# li_1288_n2214#
++ m1_1557_n2993# sky130_fd_pr__pfet_01v8_lvt_4QBKD3
+XXM10 m1_576_n1912# li_1288_n2214# m1_1204_n2036# m1_1080_n1908# m1_1080_n1908# m1_576_n1912#
 + m1_576_n1912# m1_1080_n1908# m1_1204_n2036# m1_576_n1912# sky130_fd_pr__pfet_01v8_lvt_4QBKD3
 XXM11 m1_576_n1912# VSUBS m1_1252_n916# m1_576_n1912# m1_1252_n916# m1_1358_n1034#
 + sky130_fd_pr__nfet_01v8_lvt_DJ7QE5
@@ -476,19 +478,19 @@ XXR1 m1_n638_7078# m1_n1098_2068# VSUBS sky130_fd_pr__res_high_po_0p35_A5V4E5
 XXR4 VSUBS m1_n638_7078# VSUBS sky130_fd_pr__res_high_po_0p35_M898NC
 .ends
 
-.subckt ota m2_n877_3506# m1_n854_2994# ingresso_ota_0/Vinn m2_10412_3278# Vss
-Xvb2_part_0 m1_5136_1292# ingresso_ota_0/Vinn Vss vb2_part
-Xinverter_primo_0 ingresso_ota_0/Vinn m1_6570_3361# m1_7785_3303# Vss inverter_primo
-Xvb3_part_0 ingresso_ota_0/Vinn m1_5429_1303# Vss vb3_part
-Xvmirpmos_0 m1_1937_n2013# ingresso_ota_0/Vinn Vss vmirpmos
-Xingresso_ota_0 m2_n877_3506# m2_3666_2533# m1_n854_2994# m1_n788_n1452# Vss m2_3458_3004#
-+ m2_3591_4385# m2_3438_3861# m1_1937_n2013# ingresso_ota_0/Vinn ingresso_ota
-Xcarico_0 m1_4484_n1930# m2_3458_3004# ingresso_ota_0/Vinn m1_5136_1292# m1_5429_1303#
-+ m2_3666_2533# m2_3438_3861# m2_3591_4385# m1_6570_3361# Vss carico
-Xinverter_fine_0 m1_7785_3303# ingresso_ota_0/Vinn m1_9164_3267# Vss inverter_fine
-Xinverter_fine_1 m1_9164_3267# ingresso_ota_0/Vinn m2_10412_3278# Vss inverter_fine
-Xvmirnmos_0 m1_n788_n1452# ingresso_ota_0/Vinn Vss vmirnmos
-Xvb1_part_0 m1_4484_n1930# ingresso_ota_0/Vinn Vss vb1_part
+.subckt ota m2_n877_3506# m1_n854_2994# m1_4427_4946# m2_10412_3278# VSUBS
+Xvb2_part_0 m1_5136_1292# m1_4427_4946# VSUBS vb2_part
+Xinverter_primo_0 m1_4427_4946# m1_6570_3361# m1_7785_3303# VSUBS inverter_primo
+Xvb3_part_0 m1_4427_4946# m1_5429_1303# VSUBS vb3_part
+Xvmirpmos_0 m1_1937_n2013# m1_4427_4946# VSUBS vmirpmos
+Xingresso_ota_0 m2_n877_3506# m1_4427_4946# m2_3666_2533# m1_n854_2994# m1_n788_n1452#
++ VSUBS m2_3458_3004# m2_3591_4385# m2_3438_3861# m1_1937_n2013# ingresso_ota
+Xcarico_0 m1_4484_n1930# m2_3458_3004# m1_4427_4946# m1_5136_1292# m1_5429_1303# m2_3666_2533#
++ m2_3438_3861# m2_3591_4385# m1_6570_3361# VSUBS carico
+Xinverter_fine_0 m1_7785_3303# m1_4427_4946# m1_9164_3267# VSUBS inverter_fine
+Xinverter_fine_1 m1_9164_3267# m1_4427_4946# m2_10412_3278# VSUBS inverter_fine
+Xvmirnmos_0 m1_n788_n1452# m1_4427_4946# VSUBS vmirnmos
+Xvb1_part_0 m1_4484_n1930# m1_4427_4946# VSUBS vb1_part
 .ends
 
 .subckt pass_gate_MAGIC m1_564_n75# m1_510_610# VSUBS li_471_1040# m1_n56_326# m1_439_818#
@@ -538,11 +540,15 @@ Xpartitore_MAGIC_0 m1_n2310_990# m1_n2400_n7056# m1_n2310_3490# ete m1_n2310_849
 + m1_n2310_5990# m1_n2310_n4010# m1_n2310_n1510# m1_n2400_12900# VSUBS partitore_MAGIC
 .ends
 
-.subckt analog out Vref in0 Vdd n_d[7] n_d[6] n_d[5] n_d[4] n_d[3] n_d[2] n_d[1] n_d[0]
-+ y_d[7] y_d[6] y_d[5] y_d[4] y_d[3] y_d[2] y_d[1] y_d[0] Vss
-Xota_0 Vref m1_22845_22417# Vdd out Vss ota
-XMatt_0 n_d[0] n_d[3] n_d[5] Vss y_d[7] n_d[1] y_d[1] n_d[4] y_d[6] in0 n_d[7] y_d[5]
-+ n_d[6] m1_22845_22417# y_d[0] y_d[4] y_d[2] Vdd n_d[2] y_d[3] Vss Matt
+.subckt analog m2_22757_20469# m3_14079_16471# m2_23953_20479# m3_14995_18447# m3_13548_15414#
++ m3_13067_10247# m2_27122_23004# m1_8890_6798# m3_13132_13540# m2_21555_20469# m2_16797_19579#
++ m2_19161_20475# m2_14745_18923# m3_13109_12464# m3_13069_14641# m1_39782_22776#
++ m2_17979_19563# m4_15712_27706# m3_13085_11397# m2_20362_20478# VSUBS
+Xota_0 m2_27122_23004# m1_22845_22417# m4_15712_27706# m1_39782_22776# VSUBS ota
+XMatt_0 m2_14745_18923# m2_19161_20475# m2_21555_20469# VSUBS m3_14995_18447# m2_16797_19579#
++ m3_13085_11397# m2_20362_20478# m3_14079_16471# m1_8890_6798# m2_23953_20479# m3_13548_15414#
++ m2_22757_20469# m1_22845_22417# m3_13067_10247# m3_13069_14641# m3_13109_12464#
++ m4_15712_27706# m2_17979_19563# m3_13132_13540# VSUBS Matt
 .ends
 
 .subckt tt_um_psei clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7] ui_in[0]
@@ -551,14 +557,16 @@ XMatt_0 n_d[0] n_d[3] n_d[5] Vss y_d[7] n_d[1] y_d[1] n_d[4] y_d[6] in0 n_d[7] y
 + uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0] uio_out[1]
 + uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0] uo_out[1]
 + uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
-Xdecoder_p_0 ui_in[0] ui_in[1] ui_in[2] analog_0/n_d[0] analog_0/n_d[1] analog_0/n_d[2]
-+ analog_0/n_d[3] analog_0/n_d[4] analog_0/n_d[5] analog_0/n_d[6] analog_0/n_d[7]
-+ analog_0/y_d[0] analog_0/y_d[1] analog_0/y_d[2] analog_0/y_d[3] analog_0/y_d[4]
-+ analog_0/y_d[5] analog_0/y_d[6] analog_0/y_d[7] VDPWR VGND decoder_p
-Xanalog_0 ua[1] ua[0] ua[2] VDPWR analog_0/n_d[7] analog_0/n_d[6] analog_0/n_d[5]
-+ analog_0/n_d[4] analog_0/n_d[3] analog_0/n_d[2] analog_0/n_d[1] analog_0/n_d[0]
-+ analog_0/y_d[7] analog_0/y_d[6] analog_0/y_d[5] analog_0/y_d[4] analog_0/y_d[3]
-+ analog_0/y_d[2] analog_0/y_d[1] analog_0/y_d[0] VGND analog
+Xdecoder_p_0 decoder_p_0/output15/X decoder_p_0/output11/X decoder_p_0/output13/X
++ decoder_p_0/output19/X ui_in[0] decoder_p_0/output17/X decoder_p_0/output10/X decoder_p_0/output12/X
++ decoder_p_0/output9/X decoder_p_0/output14/X decoder_p_0/output16/X decoder_p_0/output8/X
++ decoder_p_0/output18/X decoder_p_0/output7/X VDPWR decoder_p_0/output4/X decoder_p_0/output5/X
++ ui_in[1] ui_in[2] VGND decoder_p_0/output6/X decoder_p
+Xanalog_0 decoder_p_0/output10/X decoder_p_0/output18/X decoder_p_0/output11/X decoder_p_0/output19/X
++ decoder_p_0/output17/X decoder_p_0/output12/X ua[0] ua[2] decoder_p_0/output15/X
++ decoder_p_0/output9/X decoder_p_0/output5/X decoder_p_0/output7/X decoder_p_0/output4/X
++ decoder_p_0/output14/X decoder_p_0/output16/X ua[1] decoder_p_0/output6/X VDPWR
++ decoder_p_0/output13/X decoder_p_0/output8/X VGND analog
 R0 VGND uio_oe[7] 0.000000
 R1 VGND uo_out[2] 0.000000
 R2 VGND uio_oe[6] 0.000000

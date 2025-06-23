@@ -489,29 +489,29 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: decoder_p                       |Circuit 2: decoder_p                       
 -------------------------------------------|-------------------------------------------
-in[2]                                      |in[2]                                      
-in[1]                                      |in[1]                                      
-in[0]                                      |in[0]                                      
-y_d[1]                                     |y_d[1]                                     
-y_d[2]                                     |y_d[2]                                     
-y_d[4]                                     |y_d[4]                                     
-y_d[0]                                     |y_d[0]                                     
-n_d[7]                                     |n_d[7]                                     
-y_d[6]                                     |y_d[6]                                     
-y_d[5]                                     |y_d[5]                                     
-y_d[3]                                     |y_d[3]                                     
-y_d[7]                                     |y_d[7]                                     
-n_d[0]                                     |n_d[0]                                     
-n_d[2]                                     |n_d[2]                                     
-n_d[1]                                     |n_d[1]                                     
-n_d[4]                                     |n_d[4]                                     
-n_d[6]                                     |n_d[6]                                     
-n_d[3]                                     |n_d[3]                                     
-n_d[5]                                     |n_d[5]                                     
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
+input3/A                                   |in[2] **Mismatch**                         
+input2/A                                   |in[1] **Mismatch**                         
+input1/A                                   |in[0] **Mismatch**                         
+output13/X                                 |y_d[1] **Mismatch**                        
+output14/X                                 |y_d[2] **Mismatch**                        
+output16/X                                 |y_d[4] **Mismatch**                        
+output12/X                                 |y_d[0] **Mismatch**                        
+output11/X                                 |n_d[7] **Mismatch**                        
+output18/X                                 |y_d[6] **Mismatch**                        
+output17/X                                 |y_d[5] **Mismatch**                        
+output15/X                                 |y_d[3] **Mismatch**                        
+output19/X                                 |y_d[7] **Mismatch**                        
+output4/X                                  |n_d[0] **Mismatch**                        
+output6/X                                  |n_d[2] **Mismatch**                        
+output5/X                                  |n_d[1] **Mismatch**                        
+output8/X                                  |n_d[4] **Mismatch**                        
+output10/X                                 |n_d[6] **Mismatch**                        
+output7/X                                  |n_d[3] **Mismatch**                        
+output9/X                                  |n_d[5] **Mismatch**                        
+VSUBS                                      |VGND **Mismatch**                          
+_37_/VPB                                   |VPWR **Mismatch**                          
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
+Cell pin lists for decoder_p and decoder_p altered to match.
 Device classes decoder_p and decoder_p are equivalent.
 Flattening unmatched subcell ota in circuit analog (0)(1 instance)
 Flattening unmatched subcell vb2_part in circuit analog (0)(1 instance)
@@ -563,29 +563,29 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: analog                          |Circuit 2: analog                          
 -------------------------------------------|-------------------------------------------
-y_d[0]                                     |y_d[0]                                     
-n_d[0]                                     |n_d[0]                                     
-y_d[2]                                     |y_d[2]                                     
-y_d[3]                                     |y_d[3]                                     
-y_d[4]                                     |y_d[4]                                     
-y_d[5]                                     |y_d[5]                                     
-y_d[6]                                     |y_d[6]                                     
-y_d[1]                                     |y_d[1]                                     
-y_d[7]                                     |y_d[7]                                     
-n_d[7]                                     |n_d[7]                                     
-n_d[1]                                     |n_d[1]                                     
-n_d[2]                                     |n_d[2]                                     
-n_d[4]                                     |n_d[4]                                     
-n_d[5]                                     |n_d[5]                                     
-n_d[3]                                     |n_d[3]                                     
-n_d[6]                                     |n_d[6]                                     
-Vss                                        |Vss                                        
-Vdd                                        |Vdd                                        
-Vref                                       |Vref                                       
-out                                        |out                                        
-in0                                        |in0                                        
+m3_13067_10247#                            |y_d[0] **Mismatch**                        
+m2_14745_18923#                            |n_d[0] **Mismatch**                        
+m3_13109_12464#                            |y_d[2] **Mismatch**                        
+m3_13132_13540#                            |y_d[3] **Mismatch**                        
+m3_13069_14641#                            |y_d[4] **Mismatch**                        
+m3_13548_15414#                            |y_d[5] **Mismatch**                        
+m3_14079_16471#                            |y_d[6] **Mismatch**                        
+m3_13085_11397#                            |y_d[1] **Mismatch**                        
+m3_14995_18447#                            |y_d[7] **Mismatch**                        
+m2_23953_20479#                            |n_d[7] **Mismatch**                        
+m2_16797_19579#                            |n_d[1] **Mismatch**                        
+m2_17979_19563#                            |n_d[2] **Mismatch**                        
+m2_20362_20478#                            |n_d[4] **Mismatch**                        
+m2_21555_20469#                            |n_d[5] **Mismatch**                        
+m2_19161_20475#                            |n_d[3] **Mismatch**                        
+m2_22757_20469#                            |n_d[6] **Mismatch**                        
+VSUBS                                      |Vss **Mismatch**                           
+m4_15712_27706#                            |Vdd **Mismatch**                           
+m2_27122_23004#                            |Vref **Mismatch**                          
+m1_39782_22776#                            |out **Mismatch**                           
+m1_8890_6798#                              |in0 **Mismatch**                           
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
+Cell pin lists for analog and analog altered to match.
 Device classes analog and analog are equivalent.
 
 Cell tt_um_psei (0) disconnected node: clk
@@ -711,14 +711,14 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: tt_um_psei                      |Circuit 2: tt_um_psei                      
 -------------------------------------------|-------------------------------------------
-VDPWR                                      |VDPWR                                      
-uio_oe[0]                                  |uio_oe[0]                                  
 ui_in[0]                                   |ui_in[0]                                   
 ui_in[1]                                   |ui_in[1]                                   
 ui_in[2]                                   |ui_in[2]                                   
 ua[2]                                      |ua[2]                                      
 ua[1]                                      |ua[1]                                      
 ua[0]                                      |ua[0]                                      
+VDPWR                                      |VDPWR                                      
+uio_oe[0]                                  |uio_oe[0]                                  
 clk                                        |clk                                        
 ena                                        |ena                                        
 rst_n                                      |rst_n                                      
