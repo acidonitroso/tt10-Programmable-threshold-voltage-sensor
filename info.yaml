@@ -1,21 +1,21 @@
 # Tiny Tapeout project information
-project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+project: 
+  title:        "Programmable threshold voltage sensor"      # Project title
+  author:       "Andrea Possemato - Mattia A. Di Nicola"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
+  description:  "voltage sensor with 3 bit (8 voltage levels) threshold selector"      # One line description of what your project does
+  language:     "Analog, Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
-  analog_pins: 2        # Valid values: 0 to 6
+  analog_pins: 3        # Valid values: 0 to 6
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_psei"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -24,9 +24,10 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  # Digital inputs for threshold selection (3 bit decoder). 001 to 111 are fixed levels and 000 (in0) is free voltage threshold input
+  ui[0]: "in[0]"
+  ui[1]: "in[1]"
+  ui[2]: "in[2]"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -54,9 +55,9 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
-  ua[2]: ""
+  ua[0]: "Vref" #Voltage value to compare with voltage threshold
+  ua[1]: "out" #It is 1.8V (logically 1) if threshold < Vref, 0V (logically 0) otherwise
+  ua[2]: "in0" #Free voltage level for threshold (the others are fixed)
   ua[3]: ""
   ua[4]: ""
   ua[5]: ""
