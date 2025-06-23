@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1750694133
+timestamp 1750432038
 << viali >>
 rect 2973 7497 3007 7531
 rect 3341 7497 3375 7531
@@ -5584,6 +5584,112 @@ use sky130_fd_sc_hd__tapvpwrvgnd_1  TAP_TAPCELL_ROW_9_31
 timestamp 1704896540
 transform 1 0 7176 0 -1 7616
 box -38 -48 130 592
+<< labels >>
+rlabel metal2 s 5048 7616 5048 7616 4 VGND
+rlabel metal1 s 4968 7072 4968 7072 4 VPWR
+rlabel metal1 s 5474 6324 5474 6324 4 _00_
+rlabel metal1 s 5382 6222 5382 6222 4 _01_
+rlabel metal2 s 2990 3264 2990 3264 4 _02_
+rlabel metal1 s 2346 6392 2346 6392 4 _03_
+rlabel metal1 s 3956 6154 3956 6154 4 _04_
+rlabel metal2 s 4002 6596 4002 6596 4 _05_
+rlabel metal1 s 3588 4114 3588 4114 4 _06_
+rlabel metal2 s 4738 6596 4738 6596 4 _07_
+rlabel metal1 s 3680 5202 3680 5202 4 _08_
+rlabel metal1 s 3128 5882 3128 5882 4 _09_
+rlabel metal1 s 4738 5066 4738 5066 4 _10_
+rlabel metal2 s 1702 1418 1702 1418 4 in[0]
+rlabel metal2 s 5014 823 5014 823 4 in[1]
+rlabel metal2 s 8326 1384 8326 1384 4 in[2]
+rlabel metal2 s 782 8170 782 8170 4 n_d[0]
+rlabel metal2 s 1978 8510 1978 8510 4 n_d[1]
+rlabel metal2 s 3174 8612 3174 8612 4 n_d[2]
+rlabel metal2 s 4515 9724 4515 9724 4 n_d[3]
+rlabel metal2 s 5566 8612 5566 8612 4 n_d[4]
+rlabel metal2 s 6815 9724 6815 9724 4 n_d[5]
+rlabel metal2 s 7590 8245 7590 8245 4 n_d[6]
+rlabel metal1 s 7866 7446 7866 7446 4 n_d[7]
+rlabel metal2 s 3818 3026 3818 3026 4 net1
+rlabel metal2 s 5750 6562 5750 6562 4 net10
+rlabel metal1 s 5888 6970 5888 6970 4 net11
+rlabel metal1 s 3036 2414 3036 2414 4 net12
+rlabel metal1 s 2944 2346 2944 2346 4 net13
+rlabel metal2 s 2714 3230 2714 3230 4 net14
+rlabel metal1 s 3358 4250 3358 4250 4 net15
+rlabel metal1 s 2668 5338 2668 5338 4 net16
+rlabel metal2 s 3818 6018 3818 6018 4 net17
+rlabel metal1 s 2990 7480 2990 7480 4 net18
+rlabel metal1 s 3174 6664 3174 6664 4 net19
+rlabel metal1 s 4370 3434 4370 3434 4 net2
+rlabel metal1 s 5980 4114 5980 4114 4 net3
+rlabel metal1 s 3404 6698 3404 6698 4 net4
+rlabel metal1 s 4186 7480 4186 7480 4 net5
+rlabel metal1 s 3818 6970 3818 6970 4 net6
+rlabel metal2 s 5198 6630 5198 6630 4 net7
+rlabel metal1 s 5106 6868 5106 6868 4 net8
+rlabel metal1 s 6532 6426 6532 6426 4 net9
+rlabel metal3 s 1694 1156 1694 1156 4 y_d[0]
+rlabel metal3 s 774 2244 774 2244 4 y_d[1]
+rlabel metal3 s 774 3332 774 3332 4 y_d[2]
+rlabel metal3 s 774 4420 774 4420 4 y_d[3]
+rlabel metal3 s 1372 5508 1372 5508 4 y_d[4]
+rlabel metal3 s 820 6596 820 6596 4 y_d[5]
+rlabel metal3 s 590 7684 590 7684 4 y_d[6]
+rlabel metal2 s 2990 7803 2990 7803 4 y_d[7]
+flabel metal4 s 7752 2128 8072 7664 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 6280 2128 6600 7664 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 4808 2128 5128 7664 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 3336 2128 3656 7664 0 FreeSans 2400 90 0 0 VGND
+port 1 nsew
+flabel metal4 s 7016 2128 7336 7664 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 5544 2128 5864 7664 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 4072 2128 4392 7664 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal4 s 2600 2128 2920 7664 0 FreeSans 2400 90 0 0 VPWR
+port 2 nsew
+flabel metal2 s 1674 0 1730 400 0 FreeSans 280 90 0 0 in[0]
+port 3 nsew
+flabel metal2 s 4986 0 5042 400 0 FreeSans 280 90 0 0 in[1]
+port 4 nsew
+flabel metal2 s 8298 0 8354 400 0 FreeSans 280 90 0 0 in[2]
+port 5 nsew
+flabel metal2 s 754 9600 810 10000 0 FreeSans 280 90 0 0 n_d[0]
+port 6 nsew
+flabel metal2 s 1950 9600 2006 10000 0 FreeSans 280 90 0 0 n_d[1]
+port 7 nsew
+flabel metal2 s 3146 9600 3202 10000 0 FreeSans 280 90 0 0 n_d[2]
+port 8 nsew
+flabel metal2 s 4342 9600 4398 10000 0 FreeSans 280 90 0 0 n_d[3]
+port 9 nsew
+flabel metal2 s 5538 9600 5594 10000 0 FreeSans 280 90 0 0 n_d[4]
+port 10 nsew
+flabel metal2 s 6734 9600 6790 10000 0 FreeSans 280 90 0 0 n_d[5]
+port 11 nsew
+flabel metal2 s 7930 9600 7986 10000 0 FreeSans 280 90 0 0 n_d[6]
+port 12 nsew
+flabel metal2 s 9126 9600 9182 10000 0 FreeSans 280 90 0 0 n_d[7]
+port 13 nsew
+flabel metal3 s 0 1096 400 1216 0 FreeSans 600 0 0 0 y_d[0]
+port 14 nsew
+flabel metal3 s 0 2184 400 2304 0 FreeSans 600 0 0 0 y_d[1]
+port 15 nsew
+flabel metal3 s 0 3272 400 3392 0 FreeSans 600 0 0 0 y_d[2]
+port 16 nsew
+flabel metal3 s 0 4360 400 4480 0 FreeSans 600 0 0 0 y_d[3]
+port 17 nsew
+flabel metal3 s 0 5448 400 5568 0 FreeSans 600 0 0 0 y_d[4]
+port 18 nsew
+flabel metal3 s 0 6536 400 6656 0 FreeSans 600 0 0 0 y_d[5]
+port 19 nsew
+flabel metal3 s 0 7624 400 7744 0 FreeSans 600 0 0 0 y_d[6]
+port 20 nsew
+flabel metal3 s 0 8712 400 8832 0 FreeSans 600 0 0 0 y_d[7]
+port 21 nsew
 << properties >>
 string FIXED_BBOX 0 0 10000 10000
 string GDS_END 213802
