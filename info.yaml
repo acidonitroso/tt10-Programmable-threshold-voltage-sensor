@@ -55,9 +55,9 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "Vref" #Voltage value to compare with voltage threshold
-  ua[1]: "out" #It is 1.8V (logically 1) if threshold < Vref, 0V (logically 0) otherwise
-  ua[2]: "in0" #Free voltage level for threshold (the others are fixed)
+  ua[0]: "Vref"
+  ua[1]: "out" 
+  ua[2]: "in0"
   ua[3]: ""
   ua[4]: ""
   ua[5]: ""
