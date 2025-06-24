@@ -11,7 +11,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 This programmable threshold voltage comparator allows comparing a voltage provided externally by the user (**Vref** signal) with a voltage level (threshold). The threshold voltage selection is controlled by 3 digital signals (**in[0], in[1]** and **in[2]** signals), which allow selecting one of the 8 possible threshold voltage levels. 7 of these levels are fixed (from 001 to 111 code), and only one (000 code) can be set by the user (**in0** signal). 
 
-The output voltage (**out** signal) will be high (1.8V) when the selected threshold voltage is lower than **Vref** (**Vtheshold < Vref**); otherwise, it will be low (0V).
+The output voltage (**out** signal) will be high (1.8V) when the selected threshold voltage is lower than **Vref** (**Vth < Vref**); otherwise, it will be low (0V).
 
 The image below gives a simple overview of the entire project. 
 
