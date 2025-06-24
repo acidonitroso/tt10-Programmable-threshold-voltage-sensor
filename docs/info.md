@@ -20,10 +20,14 @@ The image below gives a simple overview of the entire project.
 We can see all used components. We have **8 equal resistors** whom provide fixed thresholds for **7 passgates**. The one at the bottom is linked to external pin **in0** for free user voltage threshold. Every passgate is built using Pmos and Nmos both. 
 Every passgate's gates are linked to **decoder**, who provides direct and negative signal to enable or disable each passgate. 
 
-The next section explains how **Voltage comparator** box is made.
+Values of resistance and fixed voltage thresholds can be read opening **xschem/analog.sch** file with **xschem**.
+
+The next section explains how **Voltage comparator** is made.
 
 ## Voltage comparator 
 
+## Decoder 3 to 8
+In **verilog/rtl** folder you can find the verilog file used to generate **gds/decoder_p.gds** file. Note that **hardening process** (who creates **.gds** file) was made using Matt Venn's R2R DAC example's (https://github.com/mattvenn/tt06-analog-r2r-dac) 
 ## Performance
 
 Rise time of **out** signal (from 0.2V to 1.6V) is 8.5ns. 
