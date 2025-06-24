@@ -1,8 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 # Authors
-- **Mattia Andrea Di Nicola**
+- **Mattia Andrea Di Nicola** (https://github.com/acidonitroso)
 
-- **Andrea Possemato**
+- **Andrea Possemato** (https://github.com/TaralloMan741)
 
 - **Dept. of Industrial and Information Engineering and Economics  
 University of L'Aquila - Italy** 
