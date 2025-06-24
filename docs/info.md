@@ -30,12 +30,13 @@ The next section explains how **Voltage comparator** is made.
 
 Compare inputs between 0 and 1.8 V on both Vref and outpg. The output goes to 1.8 V (logic 1) if Vref > outpg; otherwise, it goes to 0 V (logic 0).
 
-|      | Min | Max |
-| ---- | --- | --- |
-| Output current | - | 150uA |
-| Vref | 0V | 1.8V |
-| outpg | 0V | 1.8V |
-| out | 0V | 1.8V |
+|      | Min | Max | 1 logic | 0 logic |
+| ---- | --- | --- | --- | --- |
+| Output current | - | 150 μA | - | - |
+| Vref | 0V | 1.8V | - | - |
+| outpg | 0V | 1.8V | - | - |
+| out | 0V | 1.8V | - | - |
+| Zout | - | - | ~ 11.5 KΩ| ~ 2.8 KΩ |
 
 
 ## Decoder 3 to 8
