@@ -33,11 +33,11 @@ Compare inputs between 0 and 1.8 V on both Vref and outpg. The output goes to 
 
 |      | Min | Max | 1 logic | 0 logic |
 | ---- | --- | --- | --- | --- |
-| Output current | - | 150 μA | - | - |
+| Output current | - | 150μA | - | - |
 | Vref | 0V | 1.8V | - | - |
 | outpg | 0V | 1.8V | - | - |
 | out | 0V | 1.8V | - | - |
-| Zout | - | - | ~ 11.5 KΩ| ~ 2.8 KΩ |
+| Zout | - | - | ~ 11.5KΩ| ~ 2.8KΩ |
 
 
 
@@ -54,6 +54,16 @@ Rise time of **out** signal (from 0.2V to 1.6V) is 8.5ns.
 Fall time of **out** signal (from 1.6V to 0.2V) is 19ns.
 
 Maximum switching frequency of all input signals (even if they switch all at the same time) is **100KHz**, i.e. all signals can switch at the same time, but the fastest one MUST NOT exced 100KHz. 
+
+|      | Min | Max | Typical |
+| ---- | --- | --- | --- |
+| VDPWR | - | - | 1.8V |
+| VGND | - | - | 0V |
+| Vref | 0V | 1.8V | - |
+| in0 | 0V | 1.8V | - | - |
+| switching frequency (all inputs) | - | 100KHz | - |
+| Rise time | - | - | 8.5ns |
+| Fall time | - | - | 19ns |
 
 ## How to test
 **VDPWR** voltage (supply voltage): 1.8V
