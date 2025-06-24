@@ -1,4 +1,11 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
+# Authors
+**Mattia Andrea Di Nicola**
+
+**Andrea Possemato**
+
+**Dept. of Industrial and Information Engineering and Economics  
+University of L'Aquila - Italy** 
 
 # Programmable threshold voltage sensor
 
