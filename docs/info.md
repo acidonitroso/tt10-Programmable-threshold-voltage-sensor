@@ -26,7 +26,7 @@ The next section explains how **Voltage comparator** is made.
 
 ## Voltage comparator 
 
-![Voltage comparator](Voltage_comparator.jpg)
+![Voltage comparator](Voltage_comparator.png)
 
 Compare inputs between 0 and 1.8 V on both Vref and outpg. The output goes to 1.8 V (logic 1) if Vref > outpg; otherwise, it goes to 0 V (logic 0).
 
