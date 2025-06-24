@@ -61,7 +61,7 @@ Maximum switching frequency of all input signals (even if they switch all at the
 | VGND | - | - | 0V |
 | Vref | 0V | 1.8V | - |
 | in0 | 0V | 1.8V | - | - |
-| switching frequency (all inputs) | - | 100KHz | - |
+| Switching frequency (all inputs) | - | 100KHz | - |
 | Rise time | - | - | 8.5ns |
 | Fall time | - | - | 19ns |
 
