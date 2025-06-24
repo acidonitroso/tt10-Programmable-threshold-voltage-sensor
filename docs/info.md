@@ -27,6 +27,7 @@ The next section explains how **Voltage comparator** is made.
 ## Voltage comparator 
 
 ![Voltage comparator](Voltage_comparator.png)
+![](Voltage_comparator_layout.png)
 
 Compare inputs between 0 and 1.8 V on both Vref and outpg. The output goes to 1.8 V (logic 1) if Vref > outpg; otherwise, it goes to 0 V (logic 0).
 
@@ -37,6 +38,7 @@ Compare inputs between 0 and 1.8 V on both Vref and outpg. The output goes to 
 | outpg | 0V | 1.8V | - | - |
 | out | 0V | 1.8V | - | - |
 | Zout | - | - | ~ 11.5 KΩ| ~ 2.8 KΩ |
+
 
 
 ## Decoder 3 to 8
