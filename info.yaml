@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project: 
   title:        "Programmable threshold voltage sensor"      # Project title
-  authors:       "Andrea Possemato - Mattia A. Di Nicola"      # Your name
+  author:       "Andrea Possemato - Mattia A. Di Nicola"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "voltage sensor with 3 bit (8 voltage levels) threshold selector"      # One line description of what your project does
   language:     "Analog, Verilog" # other examples include Verilog, Amaranth, VHDL, etc
