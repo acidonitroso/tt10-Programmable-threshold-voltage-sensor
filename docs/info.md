@@ -13,16 +13,18 @@ This programmable threshold voltage comparator allows comparing a voltage provid
 
 ## Performance
 Rise time of out signal (from 0.2V to 1.6V) is 8.5ns. 
-Fall time of out signal(from 1.6V to 0.2V) is 19ns.
+Fall time of out signal (from 1.6V to 0.2V) is 19ns.
 
 Maximum switching frequency of all input signals (even if they switch all at the same time) is 100KHz, i.e. all signals can switch at the same time, but the fastest one MUST NOT exced 100KHz. 
 
 ## How to test
-Vref voltage range: 0V to 1.8V
+VDPWR voltage (supply voltage): 1.8V
+VGND voltage (supply voltage): 0V
 
-in0 voltage range: 0V to 1.8V
+Vref voltage range (voltage reference for comparison): 0V to 1.8V
+in0 voltage range (free voltage threshold): 0V to 1.8V
 
-in[0], in[1], in[2] (digital inputs): logically 0 0V, logically 1 1.8V
+in[0], in[1], in[2] (digital inputs): 0V (logically 0), 1.8V (logically 1)
 
 Maximum switching frequency of all input signals (even if they switch all at the same time) is 100KHz.
 
