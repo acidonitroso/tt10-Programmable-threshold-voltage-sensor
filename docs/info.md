@@ -26,10 +26,12 @@ The next section explains how **Voltage comparator** is made.
 
 ## Voltage comparator 
 
-![Voltage comparator](Voltage comparator.jpg)
+![Voltage comparator](Voltage_comparator.jpg)
+
+
 
 ## Decoder 3 to 8
-
+![Decoder](Decoder.png)
 In **verilog/rtl** folder you can find the verilog file used to generate **gds/decoder_p.gds** and gate level verilog file (in gl folder). Note that **hardening process** (who creates **.gds** and GL file) was made using commands of MakeFile contained in Matt Venn's R2R DAC example's (https://github.com/mattvenn/tt06-analog-r2r-dac). 
 
 ## Performance
