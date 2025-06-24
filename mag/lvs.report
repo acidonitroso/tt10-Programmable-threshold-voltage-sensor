@@ -588,118 +588,118 @@ in0                                        |in0
 Cell pin lists are equivalent.
 Device classes analog and analog are equivalent.
 
-Cell tt_um_psei (0) disconnected node: clk
-Cell tt_um_psei (0) disconnected node: ena
-Cell tt_um_psei (0) disconnected node: rst_n
-Cell tt_um_psei (0) disconnected node: ua[3]
-Cell tt_um_psei (0) disconnected node: ua[4]
-Cell tt_um_psei (0) disconnected node: ua[5]
-Cell tt_um_psei (0) disconnected node: ua[6]
-Cell tt_um_psei (0) disconnected node: ua[7]
-Cell tt_um_psei (0) disconnected node: ui_in[3]
-Cell tt_um_psei (0) disconnected node: ui_in[4]
-Cell tt_um_psei (0) disconnected node: ui_in[5]
-Cell tt_um_psei (0) disconnected node: ui_in[6]
-Cell tt_um_psei (0) disconnected node: ui_in[7]
-Cell tt_um_psei (0) disconnected node: uio_in[0]
-Cell tt_um_psei (0) disconnected node: uio_in[1]
-Cell tt_um_psei (0) disconnected node: uio_in[2]
-Cell tt_um_psei (0) disconnected node: uio_in[3]
-Cell tt_um_psei (0) disconnected node: uio_in[4]
-Cell tt_um_psei (0) disconnected node: uio_in[5]
-Cell tt_um_psei (0) disconnected node: uio_in[6]
-Cell tt_um_psei (0) disconnected node: uio_in[7]
-Cell tt_um_psei (1) disconnected node: ui_in[7]
-Cell tt_um_psei (1) disconnected node: ui_in[6]
-Cell tt_um_psei (1) disconnected node: ui_in[5]
-Cell tt_um_psei (1) disconnected node: ui_in[4]
-Cell tt_um_psei (1) disconnected node: ui_in[3]
-Cell tt_um_psei (1) disconnected node: uio_in[7]
-Cell tt_um_psei (1) disconnected node: uio_in[6]
-Cell tt_um_psei (1) disconnected node: uio_in[5]
-Cell tt_um_psei (1) disconnected node: uio_in[4]
-Cell tt_um_psei (1) disconnected node: uio_in[3]
-Cell tt_um_psei (1) disconnected node: uio_in[2]
-Cell tt_um_psei (1) disconnected node: uio_in[1]
-Cell tt_um_psei (1) disconnected node: uio_in[0]
-Cell tt_um_psei (1) disconnected node: ua[7]
-Cell tt_um_psei (1) disconnected node: ua[6]
-Cell tt_um_psei (1) disconnected node: ua[5]
-Cell tt_um_psei (1) disconnected node: ua[4]
-Cell tt_um_psei (1) disconnected node: ua[3]
-Cell tt_um_psei (1) disconnected node: ena
-Cell tt_um_psei (1) disconnected node: clk
-Cell tt_um_psei (1) disconnected node: rst_n
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
-Removing zero-valued device r from cell tt_um_psei (0) makes a better match
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: clk
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ena
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: rst_n
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[0]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[1]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[2]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[2]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[1]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[0]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ena
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: clk
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: rst_n
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
+Removing zero-valued device r from cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) makes a better match
 Making another compare attempt.
 
-Cell tt_um_psei (0) disconnected node: clk
-Cell tt_um_psei (0) disconnected node: ena
-Cell tt_um_psei (0) disconnected node: rst_n
-Cell tt_um_psei (0) disconnected node: ua[3]
-Cell tt_um_psei (0) disconnected node: ua[4]
-Cell tt_um_psei (0) disconnected node: ua[5]
-Cell tt_um_psei (0) disconnected node: ua[6]
-Cell tt_um_psei (0) disconnected node: ua[7]
-Cell tt_um_psei (0) disconnected node: ui_in[3]
-Cell tt_um_psei (0) disconnected node: ui_in[4]
-Cell tt_um_psei (0) disconnected node: ui_in[5]
-Cell tt_um_psei (0) disconnected node: ui_in[6]
-Cell tt_um_psei (0) disconnected node: ui_in[7]
-Cell tt_um_psei (0) disconnected node: uio_in[0]
-Cell tt_um_psei (0) disconnected node: uio_in[1]
-Cell tt_um_psei (0) disconnected node: uio_in[2]
-Cell tt_um_psei (0) disconnected node: uio_in[3]
-Cell tt_um_psei (0) disconnected node: uio_in[4]
-Cell tt_um_psei (0) disconnected node: uio_in[5]
-Cell tt_um_psei (0) disconnected node: uio_in[6]
-Cell tt_um_psei (0) disconnected node: uio_in[7]
-Cell tt_um_psei (1) disconnected node: ui_in[7]
-Cell tt_um_psei (1) disconnected node: ui_in[6]
-Cell tt_um_psei (1) disconnected node: ui_in[5]
-Cell tt_um_psei (1) disconnected node: ui_in[4]
-Cell tt_um_psei (1) disconnected node: ui_in[3]
-Cell tt_um_psei (1) disconnected node: uio_in[7]
-Cell tt_um_psei (1) disconnected node: uio_in[6]
-Cell tt_um_psei (1) disconnected node: uio_in[5]
-Cell tt_um_psei (1) disconnected node: uio_in[4]
-Cell tt_um_psei (1) disconnected node: uio_in[3]
-Cell tt_um_psei (1) disconnected node: uio_in[2]
-Cell tt_um_psei (1) disconnected node: uio_in[1]
-Cell tt_um_psei (1) disconnected node: uio_in[0]
-Cell tt_um_psei (1) disconnected node: ua[7]
-Cell tt_um_psei (1) disconnected node: ua[6]
-Cell tt_um_psei (1) disconnected node: ua[5]
-Cell tt_um_psei (1) disconnected node: ua[4]
-Cell tt_um_psei (1) disconnected node: ua[3]
-Cell tt_um_psei (1) disconnected node: ena
-Cell tt_um_psei (1) disconnected node: clk
-Cell tt_um_psei (1) disconnected node: rst_n
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: clk
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ena
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: rst_n
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ua[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: ui_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[0]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[1]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[2]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (0) disconnected node: uio_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ui_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[2]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[1]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: uio_in[0]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[7]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[6]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[5]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[4]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ua[3]
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: ena
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: clk
+Cell tt_um_acidonitroso_programmable_threshold_voltage_sensor (1) disconnected node: rst_n
 Subcircuit summary:
-Circuit 1: tt_um_psei                      |Circuit 2: tt_um_psei                      
+Circuit 1: tt_um_acidonitroso_programmable |Circuit 2: tt_um_acidonitroso_programmable 
 -------------------------------------------|-------------------------------------------
 decoder_p (1)                              |decoder_p (1)                              
 analog (1)                                 |analog (1)                                 
@@ -709,7 +709,7 @@ Number of nets: 24                         |Number of nets: 24
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: tt_um_psei                      |Circuit 2: tt_um_psei                      
+Circuit 1: tt_um_acidonitroso_programmable |Circuit 2: tt_um_acidonitroso_programmable 
 -------------------------------------------|-------------------------------------------
 VDPWR                                      |VDPWR                                      
 uio_oe[0]                                  |uio_oe[0]                                  
@@ -766,7 +766,7 @@ uo_out[7]                                  |uo_out[7]
 VGND                                       |VGND                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes tt_um_psei and tt_um_psei are equivalent.
+Device classes tt_um_acidonitroso_programmable_threshold_voltage_sensor and tt_um_acidonitroso_programmable_threshold_voltage_sensor are equivalent.
 
 Final result: Circuits match uniquely.
 .
