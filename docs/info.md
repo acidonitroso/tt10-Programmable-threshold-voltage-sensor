@@ -13,6 +13,17 @@ This programmable threshold voltage comparator allows comparing a voltage provid
 
 The output voltage (**out** signal) will be high (1.8V) when the selected threshold voltage is lower than **Vref** (**Vtheshold < Vref**); otherwise, it will be low (0V).
 
+The image below gives a simple overview of the entire project. 
+
+![logical overview](logical_overview.png)
+
+We can see all used components. We have **8 equal resistors** whom provide fixed thresholds for **7 passgates**. The one at the bottom is linked to external pin **in0** for free user voltage threshold. Every passgate is built using Pmos and Nmos both. 
+Every passgate's gates are linked to **decoder**, who provides direct and negative signal to enable or disable each passgate. 
+
+The next section explains how **Voltage comparator** box is made.
+
+## Voltage comparator 
+
 ## Performance
 
 Rise time of **out** signal (from 0.2V to 1.6V) is 8.5ns. 
