@@ -1,15 +1,17 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 # Authors
-**Mattia Andrea Di Nicola**
+- **Mattia Andrea Di Nicola**
 
-**Andrea Possemato**
+- **Andrea Possemato**
 
-**Dept. of Industrial and Information Engineering and Economics  
+- **Dept. of Industrial and Information Engineering and Economics  
 University of L'Aquila - Italy** 
 
 # Programmable threshold voltage sensor
 
 - [Read the documentation for project](docs/info.md)
+  
+![](https://camo.githubusercontent.com/3ac23a5ea35504500f312c14e1fd43d2c0baa5d087aaa2eb79f2312da5048fd5/68747470733a2f2f616369646f6e6974726f736f2e6769746875622e696f2f747431302d50726f6772616d6d61626c652d7468726573686f6c642d766f6c746167652d73656e736f722f6764735f72656e6465722e706e67)
 
 ## What is Tiny Tapeout?
 
