@@ -66,16 +66,16 @@ Maximum switching frequency of all input signals (even if they switch all at the
 | Fall time | - | - | 19ns |
 
 ## How to test
-**VDPWR** voltage (supply voltage): 1.8V
+- **VDPWR** voltage (supply voltage): 1.8V
 
-**VGND** voltage (supply voltage): 0V
+- **VGND** voltage (supply voltage): 0V
 
-**Vref** voltage range (voltage reference for comparison): 0V to 1.8V
+- **Vref** voltage range (voltage reference for comparison): 0V to 1.8V
 
-**in0** voltage range (free voltage threshold): 0V to 1.8V
+- **in0** voltage range (free voltage threshold): 0V to 1.8V
 
-**in[0], in[1], in[2]** (digital inputs): 0V (logically 0), 1.8V (logically 1)
+- **in[0], in[1], in[2]** (digital inputs): 0V (logically 0), 1.8V (logically 1)
 
-Maximum switching frequency of all input signals (even if they switch all at the same time) is 100KHz.
+- Maximum switching frequency of all input signals (even if they switch all at the same time) is 100KHz.
 
 
